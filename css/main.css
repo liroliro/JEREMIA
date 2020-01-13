@@ -1,25 +1,24 @@
 .fa-facebook {
   transition: 1s;
-  color: #fff;
-  width: 25%; }
+  color: #fff; }
 
 .fa-instagram {
   transition: 1s;
-  color: #fff;
-  width: 25%; }
+  color: #fff; }
 
 .fa-youtube {
   color: #fff;
-  transition: 1s;
-  width: 25%; }
+  transition: 1s; }
 
 .fa-envelope {
   transition: 1s;
-  color: #fff;
-  width: 25%; }
+  color: #fff; }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-envelope:hover {
   color: #cd7000; }
+
+.mediaSquare {
+  width: 25%; }
 
 #slides .carousel-inner img {
   width: 100%;
@@ -81,8 +80,9 @@
   transition: 2s; }
 
 .zoomVideo {
-  transform: scale(1.04);
-  transition: 2s; }
+  transform: scale(1.03);
+  transition: 2s;
+  object-fit: cover; }
 
 .container-fluid .row .bImgVideos {
   margin-top: 3%;
@@ -117,6 +117,10 @@ html, body {
   background: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem; }
+
+.mainFooter {
+  background: #3f3f3f;
+  color: #d5d5d5; }
 
 .navbar {
   padding: .8rem; }
