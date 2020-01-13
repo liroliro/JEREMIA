@@ -1,0 +1,26 @@
+.blur {
+    filter:blur(8px);
+    transition: 2s;
+}
+
+.sBlur{
+    filter:blur(0px);
+    transition: 2s;
+}
+
+.sZoom {
+    transform: scale(1);
+    transition: 2s;
+}
+
+.zoom {
+    transform: scale(1.15);
+    overflow-x: hidden;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.zoomVideo{
+    transform: scale(1.04);
+    transition: 2s;
+}

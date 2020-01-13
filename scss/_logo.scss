@@ -1,0 +1,32 @@
+
+.fa-facebook{
+    // color: #3b5998;
+    transition: 1s;
+    color: #fff;
+    width: 25%;
+}
+
+.fa-instagram{
+    // color: #c32aa3;
+    transition: 1s;
+    color: #fff;
+    width: 25%;
+}
+
+.fa-youtube{
+    // color: #bb0000;
+    color: #fff;
+    transition: 1s;
+    width: 25%;
+}
+
+.fa-envelope {
+    // color: #f4f4f4;
+    transition: 1s;
+    color: #fff;
+    width: 25%;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-envelope:hover{
+    color: #cd7000;
+}

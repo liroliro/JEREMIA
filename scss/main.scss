@@ -1,111 +1,51 @@
+@import "logo";
+@import "index";
+@import "fx";
+@import "videos";
+
+
 html, body{
     height: 100%;
     width: 100%;
-    font-family: Helvetica;
+    font-family: "Roboto", sans-serif;
     color: #222;
+    background-color: #2d2d2d;
 }
 
-.navbar{
-    padding: .8rem;
-}
-
-.navbar-nav li{
-    padding-right: 20px;
-}
-
-.nav-link {
-    font-size: 1.1em !important;
-}
-
-.carousel-inner img{
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-caption{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%)
-}
-
-.carousel-caption h1{
-    font-size: 500%;
-    text-shadow: 1px 1px 10px #000;
-}
-
-.carousel-caption h3{
-    font-size: 200%;
+.CR {
     font-weight: 500;
-    text-shadow: 1px 1px #000;
-    padding-bottom: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.carousel-caption a{
-    text-decoration: none;
-    color: #b4b4b4;
-}
-
-.btn-primary{
-    background-color: #6648b1;
-    border: 1px solid #563d7c;
-}
-
-.btn-primary:hover{
-    background-color: #563d7c;
-    border: 1px solid #563d7c;
-}
-
-.padding{
-    padding-bottom: 2rem;
-}
-
-.welcome{
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;    
-}
-
-.welcome hr{
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
-}
-
-
-.social a{
-    font-size: 4.5rem;
-    padding: 3rem;
-}
-
-.fa-facebook{
-    color: #3b5998;
-    width: 25%;
-}
-
-.fa-instagram{
-    color: #c32aa3;
-    width: 25%;
-}
-
-.fa-youtube{
-    color: #bb0000;
-    width: 25%;
-}
-
-.fa-envelope {
-    color: #a4a4a4;
-    width: 25%;
-}
-
-.fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-envelope:hover{
-    color: #d5d5d5;
-}
-
-footer{
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #3f3f3f;
     color: #d5d5d5;
     padding-top: 2rem;
+}
+
+
+.navbar{
+    padding: .8rem;
+    .container-fluid{
+        #navbarR{
+            .navbar-nav li{
+                padding-right: 20px;
+            }
+            .navbar-nav{
+                .active {
+                    font-size: 1.05rem;
+                }
+                .nav-link {
+                    font-size: 1.1em !important;
+                }
+            }
+        }
+    }
 }
 
 hr.light{
@@ -115,61 +55,35 @@ hr.light{
     margin-bottom: 1rem;
 }
 
-.active {
-    font-size: 1.05rem;
-}
 
-@media (max-width: 992px){
+
+@media screen and (max-width: 1200px) {
     .social a{
         font-size: 4rem;
         padding: 2rem;
     }
+    .mediaText{
+        font-size: 1.7rem;
+    }
+    .zoom{
+        transform: scale(1.05);
+    }
+    .shadowT{
+        font-size: 3.5rem;
+    }
 }
 
-@media (max-width: 768px){
-    .carousel-caption{
-        top: 45%;
-    }
-    
-    .carousel-caption h1{
-        font-size: 350%;
-    }
-    
-    .carousel-caption h3{
-        font-size: 140%;
-        font-weight: 400;
-        padding-bottom: 0.2rem;
-    }
 
-    .carousel-caption .btn{
-        font-size: 95%;
-        padding: 8px 14px;
-    }
-    .display-4{
-        font-size: 200%;
-    }
-
+@media screen and(max-width: 768px){
     .social a{
-        font-size: 2.5em;
+        font-size: 3rem;
         padding: 1.2rem;
     }
-}
-
-@media (max-width: 576px){
-    .carousel-caption{
-        top: 40%;
+    .mediaText{
+        font-size: 1.5rem;
+    }
+    .shadowT{
+        font-size: 3rem;
     }
     
-    .carousel-caption h1{
-        font-size: 250%;
-    }
-    
-    .carousel-caption h3{
-        font-size: 110%;
-    }
-
-    .carousel-caption .btn{
-        font-size: 90%;
-        padding: 4px 8px;
-    }
 }
