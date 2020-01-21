@@ -59,7 +59,7 @@
       font-size: 4rem;
       color: #202020;
       letter-spacing: .1em;
-      text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636; }
+      text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636; }
 
 .blur {
   filter: blur(8px);
@@ -154,6 +154,10 @@ hr.light {
   width: 75%;
   margin-top: 0.8rem;
   margin-bottom: 1rem; }
+
+.logo {
+  height: 112px;
+  width: auto; }
 
 @media screen and (max-width: 1200px) {
   .social a {
