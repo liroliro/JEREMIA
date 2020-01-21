@@ -6,13 +6,41 @@
             position: relative;
             .musicText {
                 color: #f4f4f4;
+                font-size: 2rem;
+            }
+            .linksMusic {
+                color: #999999;
                 font-size: 1.4rem;
             }
-            .fa-spotify{
-                color: #fff;
-                font-size: 4rem;
-                position: absolute;
-                left: 20%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-fluid {
+        .row {
+            .content {
+                .musicText {
+                    font-size: 1.7rem;
+                }
+                .linksMusic {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container-fluid {
+        .row {
+            .content {
+                .musicText {
+                    font-size: 1.4rem;
+                }
+                .linksMusic {
+                    font-size: 0.9rem;
+                }
             }
         }
     }

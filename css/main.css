@@ -14,7 +14,18 @@
   transition: 1s;
   color: #fff; }
 
-.fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-envelope:hover {
+.fa-spotify {
+  color: #fff;
+  transition: 1s; }
+
+.fa-apple {
+  color: #fff;
+  transition: 1s; }
+
+.apple {
+  width: 70%; }
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-envelope:hover, .fa-apple:hover, .fa-spotify:hover {
   color: #cd7000; }
 
 .mediaSquare {
@@ -59,7 +70,7 @@
       font-size: 4rem;
       color: #202020;
       letter-spacing: .1em;
-      text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636; }
+      text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636; }
 
 .blur {
   filter: blur(8px);
@@ -102,18 +113,87 @@
   position: relative; }
   .container-fluid .row .content .musicText {
     color: #f4f4f4;
+    font-size: 2rem; }
+  .container-fluid .row .content .linksMusic {
+    color: #999999;
     font-size: 1.4rem; }
-  .container-fluid .row .content .fa-spotify {
-    color: #fff;
-    font-size: 4rem;
-    position: absolute;
-    left: 20%; }
+
+@media screen and (max-width: 1200px) {
+  .container-fluid .row .content .musicText {
+    font-size: 1.7rem; }
+  .container-fluid .row .content .linksMusic {
+    font-size: 1.1rem; } }
+
+@media screen and (max-width: 900px) {
+  .container-fluid .row .content .musicText {
+    font-size: 1.4rem; }
+  .container-fluid .row .content .linksMusic {
+    font-size: 0.9rem; } }
 
 .container-fluid .row {
   display: flex; }
   .container-fluid .row .cContent {
     color: #fff;
     text-align: center; }
+    .container-fluid .row .cContent .connectImg {
+      width: 100%;
+      object-fit: cover;
+      height: 540px;
+      margin-top: 30px;
+      display: block; }
+
+.cText {
+  background-color: #fbf4f9;
+  opacity: 0.5;
+  font-size: 1.8rem;
+  color: darkgray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.mainText {
+  margin: 20px 15px;
+  font-size: 2rem;
+  opacity: 1;
+  color: black; }
+
+.email {
+  font-size: 1.8rem;
+  opacity: 1;
+  color: black;
+  text-decoration: none; }
+
+.email:hover {
+  text-decoration: underline;
+  text-decoration-color: #999999; }
+
+.fbM {
+  color: black;
+  font-size: 1.8rem;
+  text-decoration: none;
+  opacity: 1; }
+
+.fbMe {
+  color: black; }
+
+.fbMe:hover {
+  color: black;
+  text-decoration-color: #999999; }
+
+@media screen and (max-width: 1200px) {
+  .mainText {
+    font-size: 1.8rem; }
+  .email {
+    font-size: 1.5rem; }
+  .fbM {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 900px) {
+  .mainText {
+    font-size: 1.2rem; }
+  .email, .fbM {
+    font-size: 0.9rem; } }
 
 html, body {
   height: 100%;
