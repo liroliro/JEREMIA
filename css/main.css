@@ -267,6 +267,14 @@ body {
   .navbar .container-fluid #navbarR .navbar-nav .nav-link {
     font-size: 1.1em !important; }
 
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
@@ -286,7 +294,15 @@ hr.light {
   .zoom {
     transform: scale(1.05); }
   .shadowT {
-    font-size: 3.5rem; } }
+    font-size: 3.5rem; }
+  .white {
+    font-size: 1.2rem; }
+  .linksToMusic a {
+    font-size: 1.2rem; }
+  .containerLinks .backgroundLinks {
+    display: flex;
+    width: 91%;
+    justify-content: space-around; } }
 
 @media screen and (max-width: 768px) {
   .social a {
@@ -295,4 +311,8 @@ hr.light {
   .mediaText {
     font-size: 1.5rem; }
   .shadowT {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .white {
+    font-size: 1rem; }
+  .linksToMusic a {
+    font-size: 1rem; } }
