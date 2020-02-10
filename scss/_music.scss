@@ -1,47 +1,84 @@
-
 .container-fluid {
-    .row {
-        .content {
-            margin-top: 3%;
-            position: relative;
-            .musicText {
-                color: #f4f4f4;
-                font-size: 2rem;
-            }
-            .linksMusic {
-                color: #999999;
-                font-size: 1.4rem;
-            }
-        }
-    }
+	.row {
+		.content {
+			margin-top: 3%;
+			display: flex;
+			justify-content: center;
+			.cover {
+				width: 60%;
+				height: auto;
+			}
+			.linksMusic {
+				color: #999999;
+				font-size: 1.4rem;
+			}
+		}
+		.containerLinks {
+			width: 100%;
+			height: auto;
+			.textContainer {
+				display: flex;
+				justify-content: center;
+				.white {
+					width: 60%;
+					text-align: center;
+					color: #f3e8b4;
+					font-size: 1.4rem;
+				}
+			}
+			.backgroundLinks {
+				background-color: #262626;
+				border-radius: 25px;
+				margin-bottom: 30px;
+				margin-left: 50px;
+				margin-right: 50px;
+				padding-top: 10px;
+				.linksToMusic {
+					font-size: 1.5rem;
+					display: inline-block;
+					width: 33%;
+					text-align: center;
+				}
+				.linksA {
+					color: #d1d1d1;
+					text-transform: uppercase;
+					font-family: 'Bitter', serif;
+					transition: 1s;
+				}
+				.linksA:hover {
+					color: #f3e8b4;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 1200px) {
-    .container-fluid {
-        .row {
-            .content {
-                .musicText {
-                    font-size: 1.7rem;
-                }
-                .linksMusic {
-                    font-size: 1.1rem;
-                }
-            }
-        }
-    }
+	.container-fluid {
+		.row {
+			.content {
+				.musicText {
+					font-size: 1.7rem;
+				}
+				.linksMusic {
+					font-size: 1.1rem;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 900px) {
-    .container-fluid {
-        .row {
-            .content {
-                .musicText {
-                    font-size: 1.4rem;
-                }
-                .linksMusic {
-                    font-size: 0.9rem;
-                }
-            }
-        }
-    }
+	.container-fluid {
+		.row {
+			.content {
+				.musicText {
+					font-size: 1.4rem;
+				}
+				.linksMusic {
+					font-size: 0.9rem;
+				}
+			}
+		}
+	}
 }

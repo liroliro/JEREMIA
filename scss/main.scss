@@ -1,100 +1,95 @@
-@import "logo";
-@import "index";
-@import "fx";
-@import "videos";
-@import "music";
-@import "connect";
+@import 'logo';
+@import 'index';
+@import 'fx';
+@import 'videos';
+@import 'music';
+@import 'connect';
 
-
-html, body{
-    height: 100%;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    color: #222;
-    background-color: #2d2d2d;
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Muli', sans-serif;
+	color: #222;
+	background-color: #2d2d2d;
 }
 
 .CR {
-    font-weight: 500;
-    font-size: 1.7rem;
-    font-family: 'Courier New', Courier, monospace;
+	font-weight: 500;
+	font-size: 1.7rem;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: #3f3f3f;
-    color: #d5d5d5;
-    padding-top: 2rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
 }
 
 .mainFooter {
-    background: #3f3f3f;
-    color: #d5d5d5;
+	background: #3f3f3f;
+	color: #d5d5d5;
 }
 
-.navbar{
-    padding: .8rem;
-    .container-fluid{
-        #navbarR{
-            .navbar-nav li{
-                padding-right: 20px;
-            }
-            .navbar-nav{
-                .active {
-                    font-size: 1.05rem;
-                }
-                .nav-link {
-                    font-size: 1.1em !important;
-                }
-            }
-        }
-    }
+.navbar {
+	padding: 0.8rem;
+	.container-fluid {
+		#navbarR {
+			.navbar-nav li {
+				padding-right: 20px;
+			}
+			.navbar-nav {
+				.active {
+					font-size: 1.05rem;
+				}
+				.nav-link {
+					font-size: 1.1em !important;
+				}
+			}
+		}
+	}
 }
 
-hr.light{
-    border-top:1px solid #d5d5d5;
-    width: 75%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: 0.8rem;
+	margin-bottom: 1rem;
 }
 
-.logo{
-    height: 112px;
-    width: auto;
+.logo {
+	height: 112px;
+	width: auto;
 }
-
-
 
 @media screen and (max-width: 1200px) {
-    .social a{
-        font-size: 4rem;
-        padding: 2rem;
-    }
-    .mediaText{
-        font-size: 1.7rem;
-    }
-    .zoom{
-        transform: scale(1.05);
-    }
-    .shadowT{
-        font-size: 3.5rem;
-    }
+	.social a {
+		font-size: 4rem;
+		padding: 2rem;
+	}
+	.mediaText {
+		font-size: 1.7rem;
+	}
+	.zoom {
+		transform: scale(1.05);
+	}
+	.shadowT {
+		font-size: 3.5rem;
+	}
 }
 
-
-@media screen and(max-width: 768px){
-    .social a{
-        font-size: 3rem;
-        padding: 1.2rem;
-    }
-    .mediaText{
-        font-size: 1.5rem;
-    }
-    .shadowT{
-        font-size: 3rem;
-    }
-    
+@media screen and(max-width: 768px) {
+	.social a {
+		font-size: 3rem;
+		padding: 1.2rem;
+	}
+	.mediaText {
+		font-size: 1.5rem;
+	}
+	.shadowT {
+		font-size: 3rem;
+	}
 }
